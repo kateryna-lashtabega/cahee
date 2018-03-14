@@ -997,6 +997,10 @@ textarea {
     width: 90%;
     height: auto;
 	}
+	.ca-services__img_title {
+		    width: 100%;
+	}
+
 }
 @media screen and (max-width: 500px) {
 	 .ca-about .wrapper-flex {
@@ -1064,5 +1068,14 @@ textarea {
 		width: 300px;
 		font-size: 18px;
 		min-height: 90px;
+	}
+
+	.ca-blog__pictures__wrapper {
+	padding-left: 5px;
+	
+    
+	}
+	.ca-blog__pictures__item img {
+		width: auto;
 	}
 }
