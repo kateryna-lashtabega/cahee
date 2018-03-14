@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,700,900');
 /*font-family: 'Raleway', sans-serif;*/
 
-
 body{
 	font-family: 'Raleway', sans-serif;
 	color: #262626;	
@@ -930,6 +929,9 @@ textarea {
 	}
 	.ca-blog__pictures__wrapper {
 		margin: 0 15px 15px;
+		width: auto;
+   		 height: auto;
+   		 margin: 0 0 15px;
 	}
 	.ca-services__img_title .ca-title {
 		left: 40%;
@@ -987,6 +989,14 @@ textarea {
 		display: inline-block;
 		
 	}
+
+	.ca-blog__pictures {
+	padding-left: 10px;
+	justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+	}
 }
 @media screen and (max-width: 500px) {
 	 .ca-about .wrapper-flex {
@@ -995,6 +1005,7 @@ textarea {
 	 }
 	.ca-about__info {
 		flex-basis: 0;
+		padding-left: 0;
 	}
 	h2.ca-title {
 		font-size: 70px;
@@ -1047,5 +1058,11 @@ textarea {
 	.ba-footer__item:nth-child(2) {
 		float: right;
 		margin-top: -20px;
+	}
+
+	.ba-button--services {
+		width: 300px;
+		font-size: 18px;
+		min-height: 90px;
 	}
 }
